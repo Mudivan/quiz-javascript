@@ -295,7 +295,7 @@ const quizQuestions = [
 // Variables to track quiz state
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = quizQuestions.length * 10;
+let timeLeft = 60;
 let timerInterval;
 
 // Function to start the quiz
